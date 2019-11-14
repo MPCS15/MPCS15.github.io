@@ -1,0 +1,100 @@
+<!doctype html>
+          <html>
+            <head>
+                <style>
+ body {
+ background-color:firebrick
+}
+ #content {
+background-color:white;
+width:30%;
+margin:auto;
+text-align:center;
+}
+
+form {
+width: 50%;
+font-size:1.5em;
+margin-left:5%;
+padding-top:5%;
+background-color: goldenrod;
+border:2px dotted white;
+}
+input {
+margin-bottom:2%;
+font-size: 1em;
+}
+input#submit {
+border:4px solid white;
+border-radius: 50px 50px;
+text-align: center;
+background-color: firebrick;
+color:white;
+font-weight:bold;
+padding: 20px;
+}
+
+#submit:hover {
+background-color:cornsilk;
+color:firebrick;
+font-size:150%;
+border:2px solid brown;
+}
+                
+</style>
+</head>
+          <body>
+              <div>
+                      <h1 id="content">In-class Form</h1>
+                    </div>
+              <div>
+    <form action=" https://idesstage2.bc.edu/class/results.php" 
+          method="post">
+                  
+        <div>
+            <h3>First Name:</h3>
+            <input id="submit" type="text" name="firstname" autofocus>
+                        </div>
+        <div>
+            <h3>Last Name:</h3>
+            <input id="submit" type="text" name="lastname">
+                     </div> 
+        
+                <div>
+                    <h3>Email:</h3>
+                    <input id="submit" type="email" name="email" required>
+                      </div>
+        
+        <div>
+            <h3>Favorite Ice Cream:</h3>
+            <input id="submit" type="checkbox" name="icecream0" value="none">none
+                      </div>
+        
+                <div><input type="checkbox" name="icecream1" value="chocolate">Chocolate
+                      </div>
+        
+                <div><input type="checkbox" name="icecream2" value="vanilla">Vanilla
+                      </div>
+        
+                <div><input type="checkbox" name="icecream3" value="strawberry">Strawberry
+                      </div>
+                <div><input type="checkbox" name="icecream4" value="cookiedough">Cookie Dough
+                      </div>
+                <div><input type="checkbox" name="icecream5" value="oreo">Oreo
+                      </div>
+                <div><input type="checkbox" name="icecream6" value="all">All of them
+                      </div> 
+              <div>What do you want to do with your life:
+                      </div>
+        
+                    <div>
+                        <textarea name="answer" rows="10" cols="40">What do you want to do with your life?</textarea> 
+                    </div>
+                  
+                    <div>
+                        <input id="submit" type="submit" value="submit">
+                  </div>
+    </form>
+              </div>
+                  </body>
+          </html>
